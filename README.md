@@ -59,9 +59,9 @@ http://127.0.0.1:8000
 
 ---
 
-## **🌍 How We Handle the FX Rates Endpoint**
+## **🌍 Handling the FX Rates Endpoint**
 
-We’re using the provided API endpoint:
+Used the provided API endpoint:
 
 ```
 https://68976304250b078c2041c7fc.mockapi.io/api/wiremit/InterviewAPIS
