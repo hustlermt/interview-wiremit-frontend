@@ -57,7 +57,63 @@ Now visit:
 http://127.0.0.1:8000
 ```
 
+### 6. **DATABASE**
+
+Used the db.sqlite database, install an extention like SQLite Viewer to browse through and to also check you uploads.
 ---
+**Database Structure**
+Tables Overview
+
+*users*
+Stores all user accounts (both admins and normal users).
+Key fields:
+
+id
+
+name
+
+email
+
+password
+
+account_type (admin or user)
+
+created_at, updated_at
+
+*adverts*
+Stores uploaded adverts for the dashboard carousel.
+Key fields:
+
+id
+
+title
+
+url (optional)
+
+advert_image
+
+created_at, updated_at
+
+*transactions*
+Records all money send transactions.
+Key fields:
+
+id
+
+user_id (FK to users table)
+
+recipient_country
+
+amount_usd
+
+fee_amount
+
+exchange_rate
+
+final_amount
+
+created_at, updated_at
+
 
 ## **🌍 Handling the FX Rates Endpoint**
 
