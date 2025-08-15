@@ -1,0 +1,3 @@
+Sitemap: https://wishtagmotors.co.zw/sitemap.xml
+User-agent: *
+Disallow:
