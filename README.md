@@ -6,7 +6,7 @@ It’s built in Laravel using the Sneat Admin template. The app lets Zimbabwean 
 
 ---
 
-## **📂 Project Setup**
+## ** Project Setup**
 
 ### 1. **Clone the repo**
 
@@ -116,7 +116,7 @@ final_amount
 created_at, updated_at
 
 
-## **🌍 Handling the FX Rates Endpoint**
+## ** Handling the FX Rates Endpoint**
 
 Used the provided API endpoint:
 
@@ -151,7 +151,7 @@ If the app is accessed with no internet connection:
 
 ---
 
-## **💸 Send Money Section**
+## ** Send Money Section**
 
 ### **Validation Rules**
 
@@ -168,7 +168,7 @@ If a user tries to send without meeting these conditions, they get a validation 
 
 ---
 
-## **📢 Adverts Section**
+## ** Adverts Section**
 
 * Admins can upload adverts (image + title + optional URL).
 * Images are stored in `/assets/img/adverts`.
@@ -177,7 +177,7 @@ If a user tries to send without meeting these conditions, they get a validation 
 
 ---
 
-## **📜 Transactions Section**
+## ** Transactions Section**
 
 * Shows a paginated list of past transactions (at least 15).
 * Records amount sent, country, exchange rate used, and fee.
@@ -186,7 +186,7 @@ If a user tries to send without meeting these conditions, they get a validation 
 
 ---
 
-## **🔐 Access Control**
+## ** Access Control**
 
 * All admins and general users log in through the same login page and will be redirected to `/dashboard` route.
 * The **layout stays the same** for everyone.
@@ -198,7 +198,7 @@ If a user tries to send without meeting these conditions, they get a validation 
 
 ---
 
-## **📱 UI & UX Notes**
+## ** UI & UX Notes**
 
 * Built with Sneat Admin, so it’s responsive on mobile and desktop.
 * Form fields have clear validation messages.
@@ -207,7 +207,7 @@ If a user tries to send without meeting these conditions, they get a validation 
 
 ---
 
-## **🛡 Security**
+## ** Security**
 
 * All inputs validated before saving to DB.
 * CSRF tokens on all forms.
