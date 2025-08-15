@@ -57,11 +57,12 @@ Now visit:
 http://127.0.0.1:8000
 ```
 
-### 6. **DATABASE**
+###  **DATABASE**
 
-Used the db.sqlite database, install an extention like SQLite Viewer to browse through and to also check you uploads.
+Used the db.sqlite database, install an extention like SQLite Viewer to browse through and to also check you uploads.*
 ---
 **Database Structure**
+---
 Tables Overview
 
 *users*
